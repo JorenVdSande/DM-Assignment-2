@@ -12,14 +12,6 @@ d_type_ratings_train = {
     "timestamp": "uint32"
 }
 
-d_type_ratings_test = {
-    "userId": "uint16",
-    "movieId": "uint32",
-    "rating": "float",
-    "timestamp": "uint32"
-}
-
-
 def generate_recommendations(model):
     """
     Fill the 'ratings_test.csv' file with the 10 best recommendations according to the given model.
